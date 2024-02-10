@@ -14,6 +14,7 @@
             </li>
             @endforeach
         </ul>
+        
     </nav>
     @foreach($Category as $val)
     <div id="{{$val->id}}" class="tm-tab-content">
